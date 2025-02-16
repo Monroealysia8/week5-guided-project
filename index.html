@@ -118,22 +118,36 @@
             <legend>Sign up here!</legend>
 
             <div class="formGroup">
-              <label for="name">Name:</label>
-              <input required type="text" name="name" id="name" />
+              <label id="labelName" for="name">Name:</label>
+              <input 
+              aria-labelledby="labelName"
+              required 
+              aria-required="true"
+              type="text" 
+              name="name"
+               id="name" />
             </div>
 
             <div class="formGroup">
-              <label for="email">Email:</label>
-              <input type="text" name="email" id="email" />
+              <label id="labelEmail" for="email">Email:</label>
+              <input 
+              aria-labelledby="labelEmail"
+              required
+              aria-required="true"
+              type="text" 
+              name="email" 
+              id="email" />
             </div>
 
             <div class="formGroup">
-              <label for="message">Message:</label>
+              <label id="labelMessage" for="message">Message:</label>
               <textarea
+              aria-labelledby="labelMessage"
                 name="message"
                 id="message"
                 rows="15"
                 required
+                aria-required="false"
               ></textarea>
             </div>
             <button>Submit</button>
