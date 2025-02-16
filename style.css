@@ -1,3 +1,54 @@
+.backgroundColor{ 
+    background-color: rgb(228, 228, 235);
+}
+
+.stylenav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style-type: none;
+}
+
+.hero{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(50, 50, 50, 0.7);
+color: rgb(249, 249, 250);
+font-size: xx-large;
+font-family: 'Franklin Gothic large', 'Arial Narrow', Arial, sans-serif;
+box-sizing: border-box;
+text-align: center;
+}
+
+
+h1{font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.cta{
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    padding: 15px;
+    margin: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover{
+    background-color: indigo;
+}
+
 .boxModel{
     background-color: lightslategray;
     border: 2px solid black;
@@ -8,5 +59,4 @@
     width:700px;
     display: flex;
     align-items: center;
-
 }

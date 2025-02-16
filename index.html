@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>week5-guided-project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <header>
     <nav>
-      <ul>
+      <ul class="stylenav">
         <li><a href="#section1">Now</a></li>
         <li><a href="#section2">New</a></li>
         <li><a href="#section3">Next</a></li>
@@ -19,151 +19,155 @@
   <body>
     <main>
       <!--hero section-->
-      <section>
-        <h1 class="hero">
-          The new math: Solving cryptography in an age of quantum
+      <section class="hero">
+        <h1>
+          The new math: Solving cryptography in an age of quantum.
         </h1>
         <p>
-          Quantum computers are likely to pose a severe threat to today’s
-          encryption practices. Updating encryption has never been more urgent.
+          Quantum computers and likely threat to quantum computers.
         </p>
-      </section>
-      <!--first content section-->
-      <section>
-        <h2 id="section1">Now: Cryptography everywhere</h2>
-
-        <p>
-          Cybersecurity professionals face a wide array of immediate threats,
-          from social engineering hacks to the risks posed by AI-generated
-          content. However, they may be overlooking a potentially catastrophic
-          long-term risk: the advent of a cryptographically relevant quantum
-          computer (CRQC). Once such a computer becomes operational, it could
-          break much of the public-key cryptography that underpins secure online
-          sessions, transaction verifications, and user identity assurance.
-          While the precise arrival of a CRQC remains uncertain, experts
-          generally predict it could emerge within the next five to ten years.
-          This creates a dilemma for organizations, as they acknowledge the
-          importance of preparing for the risk but often delay action due to the
-          unknown timescale, leading to complacency.
-        </p>
-        <!--box model representation-->
-        <div class="boxModel">
-            <img src="dataimg.png" alt="triangle diagram">
-        </div>
-      </section>
-      <!--second content section-->
-      <section>
-        <h2 id="section2">New: Upgrading to a quantum-safe future</h2>
-        <p>
-          The consequences of this delay could be devastating, as the
-          infrastructure and systems relying on current cryptographic methods
-          would become vulnerable. Major disruptions could occur, with digital
-          signatures and secure data exchanges no longer being reliable,
-          undermining both the integrity and security of communications and
-          transactions. To combat this, organizations must begin proactive
-          preparations to adopt quantum-resistant cryptographic systems, as
-          emphasized by the U.S. Office of Management and Budget. Many
-          enterprises are already assessing the risk posed by quantum computing
-          and implementing risk strategies. With tools like post-quantum
-          cryptography (PQC) standards from NIST, there are solutions available
-          now to address these emerging threats, but a more widespread awareness
-          and urgency are needed.
-        </p>
-      </section>
-      <!--third content section-->
-      <section>
-        <h2 id="section3">
-          Next: Leveraging postquantum cryptography to prepare for future
-          threats
-        </h2>
-        <p>
-          Two of the primary concerns for cybersecurity teams are technology
-          integrity and operational disruption.6 Undermining digital signatures
-          and cryptographic key exchanges that enable data encryption are at the
-          heart of those fears. Losing the type of cryptography that can
-          guarantee digital signatures are authentic and unaltered would likely
-          deal a major blow to the integrity of communications and transactions.
-          Additionally, losing the ability to transmit information securely
-          could potentially upend most organizational processes.
-        </p>
-
-        <p>
-          Enterprises are starting to become aware of the risks posed by quantum
-          computing to their cybersecurity. According to Deloitte’s Global
-          Future of Cyber survey, 52% of organizations are currently assessing
-          their exposure and developing quantum-related risk strategies. Another
-          30% say they are currently taking decisive action to implement
-          solutions to these risks.
-        </p>
-
-        <p>
-          “The scale of this problem is sizeable, and its impact in the future
-          is imminent. There may still be time when it hits us, but proactive
-          measures now will help avoid a crisis later. That is the direction we
-          need to take,” says Gomeet Pant, group vice president of security
-          technologies for the India-based division of a large industrial
-          products firm.
-        </p>
-
-        <p>
-          Cryptography is now so pervasive that many organizations may need help
-          identifying all the places it appears. It’s in applications they own
-          and manage, and in their partner and vendor systems. Understanding the
-          full scope of the organizational risk that a CRQC would pose to
-          cryptography requires action across a wide range of infrastructures,
-          supply chains, and applications. Cryptography used for data
-          confidentiality and digital signatures to maintain the integrity of
-          emails, macros, electronic documents, and user authentication would
-          all be threatened, undermining the integrity and authenticity of
-          digital communications.
-        </p>
-        <!--start of form-->
-
-        <form action="#" id="form">
-          <fieldset>
-            <legend>Sign up here!</legend>
-
-            <div class="formGroup">
-              <label id="labelName" for="name">Name:</label>
-              <input 
-              aria-labelledby="labelName"
-              required 
-              aria-required="true"
-              type="text" 
-              name="name"
-               id="name" />
-            </div>
-
-            <div class="formGroup">
-              <label id="labelEmail" for="email">Email:</label>
-              <input 
-              aria-labelledby="labelEmail"
-              required
-              aria-required="true"
-              type="text" 
-              name="email" 
-              id="email" />
-            </div>
-
-            <div class="formGroup">
-              <label id="labelMessage" for="message">Message:</label>
-              <textarea
-              aria-labelledby="labelMessage"
-                name="message"
-                id="message"
-                rows="10"
-                required
-                aria-required="false"
-              ></textarea>
-            </div>
-            <button>Submit</button>
-          </fieldset>
-        </form>
-      </section>
-      <!--call to action section-->
-      <section>
+         <!--call to action section-->
         <button class="cta">Learn More</button>
-      </section>
+       </section>
+
+      <div class="backgroundColor">
+        <!--first content section-->
+        <section>
+          <h2 id="section1">Now: Cryptography everywhere</h2>
+
+          <p>
+            Cybersecurity professionals face a wide array of immediate threats,
+            from social engineering hacks to the risks posed by AI-generated
+            content. However, they may be overlooking a potentially catastrophic
+            long-term risk: the advent of a cryptographically relevant quantum
+            computer (CRQC). Once such a computer becomes operational, it could
+            break much of the public-key cryptography that underpins secure
+            online sessions, transaction verifications, and user identity
+            assurance. While the precise arrival of a CRQC remains uncertain,
+            experts generally predict it could emerge within the next five to
+            ten years. This creates a dilemma for organizations, as they
+            acknowledge the importance of preparing for the risk but often delay
+            action due to the unknown timescale, leading to complacency.
+          </p>
+          <!--box model representation-->
+          <div class="boxModel">
+            <img src="dataimg.png" alt="triangle diagram" />
+          </div>
+        </section>
+        <!--second content section-->
+        <section>
+          <h2 id="section2">New: Upgrading to a quantum-safe future</h2>
+          <p>
+            The consequences of this delay could be devastating, as the
+            infrastructure and systems relying on current cryptographic methods
+            would become vulnerable. Major disruptions could occur, with digital
+            signatures and secure data exchanges no longer being reliable,
+            undermining both the integrity and security of communications and
+            transactions. To combat this, organizations must begin proactive
+            preparations to adopt quantum-resistant cryptographic systems, as
+            emphasized by the U.S. Office of Management and Budget. Many
+            enterprises are already assessing the risk posed by quantum
+            computing and implementing risk strategies. With tools like
+            post-quantum cryptography (PQC) standards from NIST, there are
+            solutions available now to address these emerging threats, but a
+            more widespread awareness and urgency are needed.
+          </p>
+        </section>
+        <!--third content section-->
+        <section>
+          <h2 id="section3">
+            Next: Leveraging postquantum cryptography to prepare for future
+            threats
+          </h2>
+          <p>
+            Two of the primary concerns for cybersecurity teams are technology
+            integrity and operational disruption.6 Undermining digital
+            signatures and cryptographic key exchanges that enable data
+            encryption are at the heart of those fears. Losing the type of
+            cryptography that can guarantee digital signatures are authentic and
+            unaltered would likely deal a major blow to the integrity of
+            communications and transactions. Additionally, losing the ability to
+            transmit information securely could potentially upend most
+            organizational processes.
+          </p>
+
+          <p>
+            Enterprises are starting to become aware of the risks posed by
+            quantum computing to their cybersecurity. According to Deloitte’s
+            Global Future of Cyber survey, 52% of organizations are currently
+            assessing their exposure and developing quantum-related risk
+            strategies. Another 30% say they are currently taking decisive
+            action to implement solutions to these risks.
+          </p>
+
+          <p>
+            “The scale of this problem is sizeable, and its impact in the future
+            is imminent. There may still be time when it hits us, but proactive
+            measures now will help avoid a crisis later. That is the direction
+            we need to take,” says Gomeet Pant, group vice president of security
+            technologies for the India-based division of a large industrial
+            products firm.
+          </p>
+
+          <p>
+            Cryptography is now so pervasive that many organizations may need
+            help identifying all the places it appears. It’s in applications
+            they own and manage, and in their partner and vendor systems.
+            Understanding the full scope of the organizational risk that a CRQC
+            would pose to cryptography requires action across a wide range of
+            infrastructures, supply chains, and applications. Cryptography used
+            for data confidentiality and digital signatures to maintain the
+            integrity of emails, macros, electronic documents, and user
+            authentication would all be threatened, undermining the integrity
+            and authenticity of digital communications.
+          </p>
+          <!--start of form-->
+
+          <form action="#" id="form">
+            <fieldset>
+              <legend>Sign up here!</legend>
+
+              <div class="formGroup">
+                <label id="labelName" for="name">Name:</label>
+                <input
+                  aria-labelledby="labelName"
+                  required
+                  aria-required="true"
+                  type="text"
+                  name="name"
+                  id="name"
+                />
+              </div>
+
+              <div class="formGroup">
+                <label id="labelEmail" for="email">Email:</label>
+                <input
+                  aria-labelledby="labelEmail"
+                  required
+                  aria-required="true"
+                  type="text"
+                  name="email"
+                  id="email"
+                />
+              </div>
+
+              <div class="formGroup">
+                <label id="labelMessage" for="message">Message:</label>
+                <textarea
+                  aria-labelledby="labelMessage"
+                  name="message"
+                  id="message"
+                  rows="10"
+                  required
+                  aria-required="false"
+                ></textarea>
+              </div>
+              <button>Submit</button>
+            </fieldset>
+          </form>
+        </section>
+       
+      </div>
     </main>
     <!--start of footer-->
     <footer>Copyright &copy; Alysia Monroe | <span>2025</span></footer>
